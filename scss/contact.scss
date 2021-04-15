@@ -1,0 +1,114 @@
+.contact {
+  max-width: 980px;
+  min-height: 760px;
+  margin: 0 auto;
+  //   background-color: gray;
+  margin-top: 60px;
+
+  h1 {
+    font-size: 30px;
+    font-family: prox;
+    border-bottom: black solid 2px;
+    width: 160px;
+  }
+
+  .fill {
+    max-width: 980px;
+    min-height: 760px;
+    // background-color: green;
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+      width: 400px;
+      min-height: 760px;
+      //   background-color: indigo;
+
+      .image {
+        max-width: 400px;
+        height: 442px;
+        // background-color: lightcoral;
+        background-image: url(../images/map.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .text {
+        font-family: gill;
+        font-size: 18px;
+        padding-top: 20px;
+      }
+    }
+
+    .right {
+      width: 530px;
+      min-height: 400px;
+      //   background-color: lightcyan;
+
+      input {
+        width: 530px;
+        height: 60px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        font-family: gill;
+        color: black;
+        padding-left: 10px;
+        border-color: none;
+        background-color: #f5f5f5;
+        // border-color: none;
+      }
+    }
+
+    .button {
+      width: 133px;
+      height: 40px;
+      text-align: center;
+      //   margin: 0 auto;
+      margin-top: 10px;
+      background-color: $site-blue;
+      // border-radius: 25px;
+      padding-top: 10px;
+      a {
+        text-decoration: none;
+        color: $site-white;
+        font-family: gill;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .contact {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 1370px;
+    // margin: 0 auto;
+    max-width: 960px;
+    flex-direction: column;
+  }
+  .fill {
+    // max-width: 500px;
+    max-width: 400px;
+    flex-direction: column;
+    margin: 0 auto;
+    // padding-left: 10px;
+    // padding-right: 10px;
+
+    .left {
+      margin-bottom: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  .right {
+    max-width: 350px;
+    margin-right: 10px;
+  }
+  input {
+    max-width: 300px;
+    // background-color: blue;
+  }
+}

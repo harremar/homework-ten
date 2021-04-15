@@ -1,0 +1,100 @@
+.special-offers {
+  max-width: 980px;
+  min-height: 200px;
+  // background-color: aquamarine;
+  margin: 0 auto;
+  margin-top: 50px;
+
+  h1 {
+    font-family: prox;
+    font-size: 30px;
+    border-bottom: black solid 2px;
+    width: 200px;
+  }
+
+  .offer {
+    max-width: 550px;
+    min-height: 287px;
+    // background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 30px;
+
+    .image {
+      width: 200px;
+      height: 287px;
+      //   background-color: blueviolet;
+      background-image: url(../images/special-offer-01.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .image2 {
+      width: 200px;
+      height: 287px;
+      //   background-color: blueviolet;
+      background-image: url(../images/special-offer-02.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .text {
+      width: 290px;
+      padding-left: 10px;
+      min-height: 50px;
+      //   background-color: cornflowerblue;
+      position: relative;
+      p {
+        font-family: gill;
+        font-size: 16px;
+      }
+      p:last-of-type {
+        font-family: gill;
+        font-size: 16px;
+        margin-bottom: 50px;
+        // background-color: darkblue;
+      }
+
+      .learn-more {
+        font-family: gill;
+        font-size: 15px;
+        color: $site-white;
+        position: absolute;
+        // right: 0;
+        bottom: 0;
+        width: 133px;
+        height: 40px;
+        text-align: center;
+        margin: 0 auto;
+        background-color: $site-blue;
+        border-radius: 25px;
+        padding-top: 10px;
+      }
+    }
+    h2 {
+      font-family: prox;
+      font-size: 20px;
+      color: #ff7d38;
+      min-width: 75px;
+      padding-left: 10px;
+      //   background-color: cornflowerblue;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .offer {
+    width: 236px;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 0px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .special-offers {
+    padding-left: 20px;
+    padding-right: 0px;
+  }
+}

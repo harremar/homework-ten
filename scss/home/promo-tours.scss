@@ -1,0 +1,534 @@
+.promo-tours {
+  // width: 1280px;
+  // width: 100%;
+  max-width: 1280px;
+  min-height: 350px;
+  margin: -50px auto 50px auto;
+  // background-color: darkcyan;
+  display: flex;
+  // flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 150px;
+  padding-right: 150px;
+
+  .promo {
+    height: 304px;
+    width: 236px;
+    // background-color: bisque;
+
+    // ====================ISREAL======================
+    .isreal {
+      // height: 304px;
+      height: 100%;
+      // width: 236px;
+      width: 100%;
+      background-image: linear-gradient(
+          to right,
+          $overlay-black,
+          $overlay-black
+        ),
+        url(../images/tour/tour-01.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .text {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: $site-white;
+        // justify-content: space-between;
+
+        .top {
+          font-family: prox;
+          padding-bottom: 50px;
+          padding-top: 50px;
+          h1 {
+            // font-family: prox;
+            font-size: 60px;
+          }
+
+          p {
+            font-size: 30px;
+          }
+        }
+
+        .blue-button {
+          width: 133px;
+          height: 40px;
+          text-align: center;
+          margin: 0 auto;
+          background-color: $site-blue;
+          border-radius: 25px;
+          padding-top: 10px;
+
+          a {
+            text-decoration: none;
+            color: $site-white;
+            font-family: gill;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+
+    // ========================USA=========================
+    .usa {
+      // height: 304px;
+      height: 100%;
+      // width: 236px;
+      width: 100%;
+      background-image: linear-gradient(
+          to right,
+          $overlay-black,
+          $overlay-black
+        ),
+        url(../images/tour/tour-02.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .text {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: $site-white;
+        // justify-content: space-between;
+
+        .top {
+          font-family: prox;
+          padding-bottom: 50px;
+          padding-top: 30px;
+          h1 {
+            // font-family: prox;
+            font-size: 60px;
+          }
+
+          p {
+            font-size: 30px;
+          }
+        }
+
+        .blue-button {
+          width: 133px;
+          height: 40px;
+          text-align: center;
+          margin: 0 auto;
+          background-color: $site-blue;
+          border-radius: 25px;
+          padding-top: 10px;
+          // margin-bottom: 50px;
+
+          a {
+            text-decoration: none;
+            color: $site-white;
+            font-family: gill;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+
+    // ======================AUSTRALIA===========================
+    .aust {
+      // height: 304px;
+      height: 100%;
+      // width: 236px;
+      width: 100%;
+      background-image: linear-gradient(
+          to right,
+          $overlay-black,
+          $overlay-black
+        ),
+        url(../images/tour/tour-03.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .text {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: $site-white;
+        // justify-content: space-between;
+
+        .top {
+          font-family: prox;
+          padding-bottom: 50px;
+          padding-top: 50px;
+          h1 {
+            // font-family: prox;
+            font-size: 60px;
+          }
+
+          p {
+            font-size: 30px;
+          }
+        }
+
+        .blue-button {
+          width: 133px;
+          height: 40px;
+          text-align: center;
+          margin: 0 auto;
+          background-color: $site-blue;
+          border-radius: 25px;
+          padding-top: 10px;
+
+          a {
+            text-decoration: none;
+            color: $site-white;
+            font-family: gill;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    .newzealand {
+      // height: 304px;
+      height: 100%;
+      // width: 236px;
+      width: 100%;
+      background-image: linear-gradient(
+          to right,
+          $overlay-black,
+          $overlay-black
+        ),
+        url(../images/tour/tour-04.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .text {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: $site-white;
+        // justify-content: space-between;
+
+        .top {
+          font-family: prox;
+          padding-bottom: 50px;
+          padding-top: 50px;
+          h1 {
+            // font-family: prox;
+            font-size: 60px;
+          }
+
+          p {
+            font-size: 30px;
+          }
+        }
+
+        .blue-button {
+          width: 133px;
+          height: 40px;
+          text-align: center;
+          margin: 0 auto;
+          background-color: $site-blue;
+          border-radius: 25px;
+          padding-top: 10px;
+
+          a {
+            text-decoration: none;
+            color: $site-white;
+            font-family: gill;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    .france {
+      // height: 304px;
+      height: 100%;
+      // width: 236px;
+      width: 100%;
+      background-image: linear-gradient(
+          to right,
+          $overlay-black,
+          $overlay-black
+        ),
+        url(../images/tour/tour-05.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .text {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: $site-white;
+        // justify-content: space-between;
+
+        .top {
+          font-family: prox;
+          padding-bottom: 50px;
+          padding-top: 50px;
+          h1 {
+            // font-family: prox;
+            font-size: 60px;
+          }
+
+          p {
+            font-size: 30px;
+          }
+        }
+
+        .blue-button {
+          width: 133px;
+          height: 40px;
+          text-align: center;
+          margin: 0 auto;
+          background-color: $site-blue;
+          border-radius: 25px;
+          padding-top: 10px;
+
+          a {
+            text-decoration: none;
+            color: $site-white;
+            font-family: gill;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    .egypt {
+      // height: 304px;
+      height: 100%;
+      // width: 236px;
+      width: 100%;
+      background-image: linear-gradient(
+          to right,
+          $overlay-black,
+          $overlay-black
+        ),
+        url(../images/tour/tour-06.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .text {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: $site-white;
+        // justify-content: space-between;
+
+        .top {
+          font-family: prox;
+          padding-bottom: 50px;
+          padding-top: 50px;
+          h1 {
+            // font-family: prox;
+            font-size: 60px;
+          }
+
+          p {
+            font-size: 30px;
+          }
+        }
+
+        .blue-button {
+          width: 133px;
+          height: 40px;
+          text-align: center;
+          margin: 0 auto;
+          background-color: $site-blue;
+          border-radius: 25px;
+          padding-top: 10px;
+
+          a {
+            text-decoration: none;
+            color: $site-white;
+            font-family: gill;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    .japan {
+      // height: 304px;
+      height: 100%;
+      // width: 236px;
+      width: 100%;
+      background-image: linear-gradient(
+          to right,
+          $overlay-black,
+          $overlay-black
+        ),
+        url(../images/tour/tour-07.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .text {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: $site-white;
+        // justify-content: space-between;
+
+        .top {
+          font-family: prox;
+          padding-bottom: 50px;
+          padding-top: 50px;
+          h1 {
+            // font-family: prox;
+            font-size: 60px;
+          }
+
+          p {
+            font-size: 30px;
+          }
+        }
+
+        .blue-button {
+          width: 133px;
+          height: 40px;
+          text-align: center;
+          margin: 0 auto;
+          background-color: $site-blue;
+          border-radius: 25px;
+          padding-top: 10px;
+
+          a {
+            text-decoration: none;
+            color: $site-white;
+            font-family: gill;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    .canada {
+      // height: 304px;
+      height: 100%;
+      // width: 236px;
+      width: 100%;
+      background-image: linear-gradient(
+          to right,
+          $overlay-black,
+          $overlay-black
+        ),
+        url(../images/tour/tour-08.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .text {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: $site-white;
+        // justify-content: space-between;
+
+        .top {
+          font-family: prox;
+          padding-bottom: 50px;
+          padding-top: 50px;
+          h1 {
+            // font-family: prox;
+            font-size: 60px;
+          }
+
+          p {
+            font-size: 30px;
+          }
+        }
+
+        .blue-button {
+          width: 133px;
+          height: 40px;
+          text-align: center;
+          margin: 0 auto;
+          background-color: $site-blue;
+          border-radius: 25px;
+          padding-top: 10px;
+
+          a {
+            text-decoration: none;
+            color: $site-white;
+            font-family: gill;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    .uae {
+      // height: 304px;
+      height: 100%;
+      // width: 236px;
+      width: 100%;
+      background-image: linear-gradient(
+          to right,
+          $overlay-black,
+          $overlay-black
+        ),
+        url(../images/tour/tour-09.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .text {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: $site-white;
+        // justify-content: space-between;
+
+        .top {
+          font-family: prox;
+          padding-bottom: 50px;
+          padding-top: 50px;
+          h1 {
+            // font-family: prox;
+            font-size: 60px;
+          }
+
+          p {
+            font-size: 30px;
+          }
+        }
+
+        .blue-button {
+          width: 133px;
+          height: 40px;
+          text-align: center;
+          margin: 0 auto;
+          background-color: $site-blue;
+          border-radius: 25px;
+          padding-top: 10px;
+
+          a {
+            text-decoration: none;
+            color: $site-white;
+            font-family: gill;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .promo-tours {
+    width: 236px;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    .promo {
+      margin-bottom: 30px;
+    }
+  }
+}

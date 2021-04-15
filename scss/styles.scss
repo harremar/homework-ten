@@ -1,0 +1,30 @@
+@import "variables.scss";
+@import "mixin.scss";
+@import "structure.scss";
+
+// home assests
+@import "home/hero.scss";
+@import "home/promo-tours.scss";
+@import "home/nav.scss";
+
+// footer
+@import "footer/footer.scss";
+
+// form
+@import "form/booking-form.scss";
+
+//about
+@import "home/about.scss";
+
+//tours
+@import "tours/tours.scss";
+@import "tours/package.scss";
+
+//special-offers
+@import "offers/specialoffers.scss";
+
+//blog
+@import "blog.scss";
+
+//contact
+@import "contact.scss";

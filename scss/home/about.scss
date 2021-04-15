@@ -1,0 +1,89 @@
+.about {
+  max-width: 980px;
+  margin: 0 auto;
+
+  // background-color: aqua;
+
+  .about-top-section {
+    margin-top: 100px;
+    h1 {
+      font-family: prox;
+      font-size: 60px;
+      // text-decoration: underline;
+
+      border-bottom: 2px solid black;
+      max-width: 171px;
+    }
+    p {
+      font-family: gill;
+      font-size: 16px;
+    }
+  }
+  
+
+  .about-bottom-section {
+    margin-top: 100px;
+    margin-bottom: 180px;
+    h3 {
+      font-family: prox;
+      font-size: 40px;
+      border-bottom: 2px solid black;
+      max-width: 255px;
+    }
+
+    .client {
+      max-width: 676px;
+      min-height: 150px;
+      display: flex;
+      margin-bottom: 38px;
+      .client-image {
+        width: 260px;
+        height: 150px;
+        // background-color: burlywood;
+      }
+      .client1 {
+        background-image: url(../images/about-client-01.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .client2 {
+        background-image: url(../images/about-client-02.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .client-quote {
+        position: relative;
+        // background-color: darkgray;
+        min-height: 50px;
+        width: 100%;
+        padding-left: 25px;
+
+        p:last-of-type {
+          font-family: gill;
+          font-size: 16px;
+          margin-bottom: 25px;
+        }
+
+        .client-name {
+          font-family: prox;
+          font-size: 20px;
+          color: $site-blue;
+          position: absolute;
+          right: 0;
+          bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .about {
+    padding: 10px;
+    .about-bottom-section {
+    }
+  }
+}
