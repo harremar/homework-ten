@@ -76,6 +76,7 @@ function addHomeListeners(){
     $("#app .promo-tours .promo .usa .blue-button a").click(function(e) {
         console.log("usa");
     })
+
     $("#app .promo-tours .promo .aust .blue-button a").click(function(e) {
         console.log("australia");
     })
@@ -84,27 +85,35 @@ function addTourListeners(){
     $("#app .promo-tours .promo .isreal .text .blue-button a").click(function(e) {
         console.log("israel");
     })
+
     $("#app .promo-tours .promo .usa .text .blue-button a").click(function(e) {
         console.log("usa");
     })
+
     $("#app .promo-tours .promo .aust .text .blue-button a").click(function(e) {
         console.log("australia");
     })
+
     $("#app .promo-tours .promo .newzealand .text .blue-button a").click(function(e) {
         console.log("newzealand");
     })
+
     $("#app .promo-tours .promo .france .text .blue-button a").click(function(e) {
         console.log("france");
     })
+
     $("#app .promo-tours .promo .egypt .text .blue-button a").click(function(e) {
         console.log("egypt");
     })
+
     $("#app .promo-tours .promo .japan .text .blue-button a").click(function(e) {
         console.log("japan");
     })
+
     $("#app .promo-tours .promo .canada .text .blue-button a").click(function(e) {
         console.log("canada");
     })
+    
     $("#app .promo-tours .promo .uae .text .blue-button a").click(function(e) {
         console.log("uae");
     })
