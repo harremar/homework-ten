@@ -208,7 +208,7 @@ var toursContent = `<div class="tours">
 <section class="promo-tours" style="margin: 50px auto 0 auto">
 <div class="promo">
     <!-- ISREAL -->
-    <div class="isreal">
+    <div id= "israel" class="isreal">
         <div class="text">
             <div class="top">
                 <h1>ISRAEL</h1>
@@ -220,7 +220,7 @@ var toursContent = `<div class="tours">
 </div>
 <div class="promo">
     <!-- USA -->
-    <div class="usa">
+    <div id = "usa" class="usa">
         <div class="text">
             <div class="top">
                 <h1>USA</h1>
@@ -232,7 +232,7 @@ var toursContent = `<div class="tours">
 </div>
 <div class="promo">
     <!-- AUSTRALIA -->
-    <div class="aust">
+    <div id = "aust" class="aust">
         <div class="text">
             <div class="top">
                 <h1>AUSTRALIA</h1>
