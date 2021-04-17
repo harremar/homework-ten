@@ -60,10 +60,6 @@ function init () {
         MODEL.getPageContent(contentID , addTourListeners)
         console.log("click");
     });
-    
-
-
-   
 }
 
 function removeHero(currentHeroImage) {
