@@ -697,13 +697,3 @@ export function getPageContent(pageId , callback) {
     }
     }
 
-
-
-export function getName(){
-    console.log("Marielle");
-}
-
-export function getLastName() {
-    console.log("Harrell");
-}
-
